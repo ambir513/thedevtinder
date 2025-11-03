@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function Home() {
@@ -14,7 +15,7 @@ export default function Home() {
       />
       <div className="flex flex-col items-center gap-3 text-center sm:items-start sm:text-left">
         <h1 className="text-lg font-semibold">Welcome to DevTinder</h1>
-        <p className="text-sm text-neutral-400">
+        <p className="text-sm text-muted-foreground">
           A platform to connect developers around the world.
         </p>
       </div>
